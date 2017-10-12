@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.mytest2.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="字体颜色"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/red"
+                android:title="红色" />
+            <item
+                android:id="@+id/blue"
+                android:title="蓝色" />
+            <item
+                android:id="@+id/green"
+                android:title="绿色" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/size"
+        android:title="字体大小">
+        <menu>
+            <item
+                android:id="@+id/large"
+                android:title="五号" />
+            <item
+                android:id="@+id/small"
+                android:title="三号" />
+        </menu>
+
+    </item>
+
+
+</menu>
